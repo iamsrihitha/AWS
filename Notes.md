@@ -63,3 +63,37 @@ Load Balancer:
 -------------
 It distribute the traffic  to multiple the serviers. It uses round robin method.
 
+Protocols:
+----------
+HTTP: Hyper Text Transfer Protocol
+----------------------------------
+It transfer the data to and fro from browser to server.
+
+HTTP Status code:
+----------------
+404-page not found.
+
+500-Internal service error.
+
+503-service unavailable.
+
+200-success, page found.
+
+
+TCP: Transmition control Protocol
+---------------------------------
+Tcp acts as connection between two hosts/ servers.
+It acts like a bridge.
+
+OSI layers:
+----------
+There are 7 layers
+1. physical layer
+2. Data Link layer
+3. Network layer(using IP)
+4.Transport layer( using TCP)
+5.session layer
+6.presentation layer(SSH, RDP etc...)
+7.Application layer (HTTP,HTTPS)
+ 
+
