@@ -1,31 +1,65 @@
-client: which request resource.
-server: which respond to the resource.
+Client:   which request resource.
+
+Server: which respond to the resource.
+
 Devices can be either client or server.
 
 1-Tier Architecture:
 --------------------
-     client and server are in single layer.
+Client and server are in single layer.
 
 2-Tier Architecture: 
 ---------------------
-    client and server is in different layers.
+Client and server are in different layers.
     server has application server and database  server.  
 
 3-Tier Architecture:
 -------------------
-    client,application layer,database  layer are in different layers.
+Client,application layer,database  layer are in different layers.
     
 Application server:
 ------------------
-    The server which has application is hosted/deployed.
+The server which has application is hosted/deployed.
+
 Database server:
 -------------
-     The server which is stored database.
+The server which is stored database.
+
 Internet protocol:
 -----------------
-     It is a unique identifer for a device in the network.
+It is a unique identifer for a device in the network.
+
 Hostname:
 ---------
-     Name of the server.
+Name of the server.
+
+DNS: Domain Name Server
+----------------------
+It track the IP address and Host Name.
+
+RNS: Root Name Server
+--------------------
+It checks the root names like .com,.in this are also known as top level domain.
  
+ SOA: Start of Authority
+ -----------------------
+It has the IP Address.
+
+Firewall:
+---------
+It stops the unauthorized access to the network.
+
+http: 80 /not secure connection to the application.
+
+https: 443 /secure connection.
+
+sh: 22 /connect to Linux.
+
+RDP: 3389 /connect to windows.
+
+Request travels in the form of packets. It stores the information of request.
+
+Load Balancer:
+-------------
+It distribute the traffic  to multiple the serviers. It uses round robin method.
 
