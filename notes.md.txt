@@ -1,0 +1,98 @@
+Client:   which request resource.
+
+Server: which respond to the resource.
+
+Devices can be either client or server.
+
+1-Tier Architecture:
+--------------------
+Client and server are in single layer.
+
+2-Tier Architecture: 
+---------------------
+Client and server are in different layers.
+    server has application server and database  server.  
+
+3-Tier Architecture:
+-------------------
+Client,application layer,database  layer are in different layers.
+    
+Application server:
+------------------
+The server which has application is hosted/deployed.
+
+Database server:
+-------------
+The server which is stored database.
+
+Internet protocol:
+-----------------
+It is a unique identifer for a device in the network.
+
+Hostname:
+---------
+Name of the server.
+
+DNS: Domain Name Server
+----------------------
+It track the IP address and Host Name.
+
+RNS: Root Name Server
+--------------------
+It checks the root names like .com,.in this are also known as top level domain.
+ 
+SOA: Start of Authority
+ -----------------------
+It has the IP Address.
+
+Firewall:
+---------
+It stops the unauthorized access to the network.
+
+http: 80 /not secure connection to the application.
+
+https: 443 /secure connection.
+
+sh: 22 /connect to Linux.
+
+RDP: 3389 /connect to windows.
+
+Request travels in the form of packets. It stores the information of request.
+
+Load Balancer:
+-------------
+It distribute the traffic  to multiple the serviers. It uses round robin method.
+
+Protocols:
+----------
+HTTP: Hyper Text Transfer Protocol
+----------------------------------
+It transfer the data to and fro from browser to server.
+
+HTTP Status code:
+----------------
+404-page not found.
+
+500-Internal service error.
+
+503-service unavailable.
+
+200-success, page found.
+
+
+TCP: Transmition control Protocol
+---------------------------------
+Tcp acts as connection between two hosts/ servers.
+It acts like a bridge.
+
+OSI layers:
+----------
+There are 7 layers
+1. physical layer
+2. Data Link layer
+3. Network layer(using IP)
+4.Transport layer( using TCP)
+5.session layer
+6.presentation layer(SSH, RDP etc...)
+7.Application layer (HTTP,HTTPS)
+ 
